@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import {useEffect, useRef, useState} from "react";
+import {useRef, useState} from "react";
 
 
 
@@ -149,7 +149,6 @@ const InputPlaceholder = styled(`div`)`
 
 
 function LoginModal() {
-    const searchInput = useRef();
     const [isFocus, setIsFocus] = useState<boolean>(false);
 
     const [isShow, setIsShow] = useState<boolean>(true);
